@@ -1,0 +1,28 @@
+@import 'color';
+.intro{
+    height: calc(100vh - 50px);
+
+    >video{
+        width: 100%;
+        margin-top: -50px;
+    }
+     >div{
+         height: 100vh;
+         width: calc(100% - 50px);
+         position: absolute;
+         top: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+        >button{
+            padding: 1vw 2vw;
+            border-radius: .5vw;
+            border: none;
+            font-size: 20px;
+            color: $pink;
+            background-color: $yellow;
+
+        } 
+     }
+}
